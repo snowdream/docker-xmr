@@ -30,6 +30,12 @@ docker images for xmr、monero
 docker run --restart=always --network host -d -v /etc/xmrig/config.json:/etc/xmrig/config.json --name xmr snowdream/xmr
 ```
 
+The cpu usage is limited to 90% by default. If you want to change it,pass it with CPU_USAGE.[0 - 100]
+
+```bash
+docker run --restart=always --network host -d -v /etc/xmrig/config.json:/etc/xmrig/config.json -e CPU_USAGE=100 --name xmr snowdream/xmr
+```
+
 ## Donate
 
 My Monero Wallet Address:
