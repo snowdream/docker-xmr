@@ -3,7 +3,7 @@ FROM centos:latest
 LABEL maintainer="snowdream <sn0wdr1am@icloud.com>"
 
 ENV CPULIMIT_VERSION=0.2 \
-    CPU_USEAGE=90 \
+    CPU_USAGE=90 \
     XMRIG_VERSION=5.4.0  
 
 RUN dnf install -y wget \
