@@ -21,6 +21,7 @@ RUN apk add --no-cache build-base \
     &&  cp xmrig /usr/bin/ \
     &&  mkdir -p /etc/xmrig \
     &&  cp config.json /etc/xmrig \
+    &&  apk del build-base \
     &&  cd /root \
     &&  rm v${CPULIMIT_VERSION}.tar.gz \
     &&  rm -rf cpulimit-${CPULIMIT_VERSION} \
