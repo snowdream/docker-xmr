@@ -58,7 +58,7 @@ Outputs：
 ```bash
 # docker logs -f xmr
 [2020-02-10 08:09:41.113] Ignoring wrong algo-perf name rx/v
- * ABOUT        C3XMRig/5.10.0-c3 gcc/7.4.0
+ * ABOUT        C3XMRig/5.11.1-c3 gcc/7.4.0
  * LIBS         libuv/1.18.0 OpenSSL/1.1.1 hwloc/2.0.4
  * HUGE PAGES   supported
  * 1GB PAGES    disabled

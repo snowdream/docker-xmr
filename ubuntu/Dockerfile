@@ -4,7 +4,7 @@ LABEL maintainer="snowdream <sn0wdr1am@icloud.com>"
 
 ENV CPULIMIT_VERSION=0.2 \
     CPU_USAGE=90 \
-    XMRIG_VERSION=5.10.0  
+    XMRIG_VERSION=5.11.1  
 
 RUN apt-get -qq update \
     &&  apt-get -qqy install --no-install-recommends wget \
